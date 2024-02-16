@@ -1,6 +1,11 @@
 import { View, Text, Pressable, StyleSheet}from 'react-native';
 import Colors from '../../constants/Colors';
 
+/**
+ * Set the buttons styles of the game
+ * @param {*} button
+ * @returns 
+ */
 function PrimaryButton({ children, onPress }){
     return (
         <View style = {styles.buttonOuterContainer}>

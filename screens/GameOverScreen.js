@@ -3,6 +3,7 @@ import Title from '../components/ui/Title';
 import Colors from '../constants/Colors';
 import PrimaryButton from '../components/ui/PrimaryButton';
 
+//Third screen shows when random number is the same as picked number
 function GameOverScreen({userNumber, onStartNewGame}) {
     return (
         <View style={styles.rootContainer}>

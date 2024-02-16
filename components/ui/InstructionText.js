@@ -1,6 +1,11 @@
 import { Text, StyleSheet } from "react-native";
 import Colors from "../../constants/Colors";
 
+/**
+ * Set the instruction text in same style
+ * @param {*} text
+ * @returns 
+ */
 function InstructionText({children}) {
     return <Text style={styles.instructionText}>{children}</Text>
 }

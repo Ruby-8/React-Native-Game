@@ -1,3 +1,6 @@
+/**
+ * A component to help the game have certain colors to use
+ */
 const Colors = {
     primary500: '#72063c',
     primary600: '#640233',

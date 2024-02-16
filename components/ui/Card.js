@@ -1,6 +1,11 @@
 import {View, StyleSheet} from 'react-native';
 import Colors from '../../constants/Colors';
 
+/**
+ * Set the number background
+ * @param {*} numbercontent 
+ * @returns 
+ */
 function Card({children}){
     return <View style={styles.card}>{children}</View>
 }

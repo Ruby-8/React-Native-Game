@@ -5,7 +5,15 @@ import Card from '../components/ui/Card';
 import NumberContainer from '../components/game/NumberContainer';
 import PrimaryButton from '../components/ui/PrimaryButton';
 import InstructionText from '../components/ui/InstructionText';
-
+//Second screen to run the game
+ 
+/**
+ * Helper method to generate random number
+ * @param {*} min 
+ * @param {*} max 
+ * @param {*} exclude 
+ * @returns 
+ */
 function generateRandomBetween(min, max, exclude) {
     const rndNum = Math.floor(Math.random() * (max - min)) + min;
 

@@ -6,7 +6,11 @@ import Title from '../components/ui/Title';
 import Card from '../components/ui/Card';
 import InstructionText from '../components/ui/InstructionText';
 
-
+/**
+ * The second screen to start the game
+ * @param {onPickNumber} result
+ * @returns 
+ */
 function StartGameScreen({ onPickNumber }) {
     const [enteredNumber, setEnteredNumber] = useState('');
 
